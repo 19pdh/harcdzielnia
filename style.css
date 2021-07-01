@@ -1,0 +1,13 @@
+body {
+  max-width: 80ex;
+  margin: auto;
+}
+
+footer {
+  margin-bottom: 2em;
+}
+
+.list {
+  padding: 1ex;
+  border: 1px solid gray;
+}
