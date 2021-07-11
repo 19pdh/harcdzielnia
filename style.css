@@ -1,6 +1,8 @@
 body {
   max-width: 80ex;
+  padding: 1ex;
   margin: auto;
+  font-family: sans-serif;
 }
 
 footer {
