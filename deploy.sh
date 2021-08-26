@@ -2,7 +2,7 @@
 
 mkdir -p dest
 
-cp logo.png style.css dest
+cp logo-* style.css dest
 
 cat _index_header.html > dest/index.html
 for f in $(find itemy -name '*.md'); do

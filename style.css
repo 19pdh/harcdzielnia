@@ -1,8 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+:root {
+  --bg: #FDF4EA;
+  --fg: #282725;
+}
+
+html {
+  background: var(--bg);
+  color: var(--fg);
+  font-family: 'Roboto Slab', serif;
+}
+
 body {
   max-width: 80ex;
   padding: 1ex;
   margin: auto;
-  font-family: sans-serif;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  text-align: center;
 }
 
 footer {
@@ -12,4 +30,10 @@ footer {
 .list {
   padding: 1ex;
   border: 1px solid gray;
+}
+
+@media (max-width: 720px) {
+  header {
+    flex-direction: column;
+  }
 }
