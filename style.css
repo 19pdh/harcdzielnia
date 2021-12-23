@@ -40,4 +40,9 @@ footer {
 
 main img {
 	width: 100%;
+	margin-bottom: 2em;
+}
+
+main {
+	padding-bottom: 2em;
 }
