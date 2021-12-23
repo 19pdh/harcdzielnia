@@ -1,3 +1,5 @@
-# Rogatywka - stary krój
+# Rogatywka
 
-Rogatywka w starym kroju, bez lilijki
+<img src="rogatywka-stary-kroj.jpg">
+
+Rogatywka (nie intermag), bez lilijki

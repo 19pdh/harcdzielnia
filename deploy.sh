@@ -7,6 +7,7 @@ cp logo-* style.css dest
 cat _index_header.html > dest/index.html
 for f in $(find itemy -name '*.md'); do
   file=$(basename $f .md)
+  cp itemy/$file.jpg dest/$file.jpg
   title=$(grep '^# ' $f | head -n 1 | cut -c 3-)
   echo "<li><a href=\"$file.html\">$title</a></li>" >> dest/index.html
   cat _header.html > dest/$file.html
