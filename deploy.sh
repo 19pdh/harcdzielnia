@@ -12,7 +12,7 @@ for f in $(find itemy -name '*.md'); do
   echo "<li><a href=\"$file.html\">$title</a></li>" >> dest/index.html
   cat _header.html > dest/$file.html
   sed 's/^# \(.*\)/<h2>\1<\/h2>/' $f >> dest/$file.html
-  echo "</div></main>
+  echo "</main>
  <footer>
   <hr>
   <a href=\"https://zhr.niedzwiedzinski.cyou/harcdzielnia\">Harcdzielnia</a> |
@@ -23,6 +23,7 @@ done
 
 echo "</ul></main>
 <footer>
+  <a href=\"https://siedemgor.pl/pl/p/Bluza-mundurowa-meska-ZHR-rozmiarowka/113#box_description\">Rozmiary mundurów</a>
   <hr>
   <a href=\"https://zhr.niedzwiedzinski.cyou/harcdzielnia\">Harcdzielnia</a> |
   <a href=\"https://git.niedzwiedzinski.cyou/zhr/harcdzielnia\">Współtwórz harcdzielnię</a>
