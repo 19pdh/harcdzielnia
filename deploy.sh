@@ -25,7 +25,10 @@ echo "</ul></main>
 <footer>
   <a href=\"https://siedemgor.pl/pl/p/Bluza-mundurowa-meska-ZHR-rozmiarowka/113#box_description\">Rozmiary mundurów</a>
   <hr>
-  <a href=\"https://zhr.niedzwiedzinski.cyou/harcdzielnia\">Harcdzielnia</a> |
+  <div style=\"text-align: center\">
+  <a href=\"https://harcdzielnia.19pdh.pl\">Harcdzielnia</a> |
   <a href=\"https://git.niedzwiedzinski.cyou/zhr/harcdzielnia\">Współtwórz harcdzielnię</a>
+  <p><a href=\"https://19pdh.pl\">19 Poznańska Drużyna Harcerzy \"Puszcza\"</a></p>
+  </div>
 </footer>
 </body></html>" >> dest/index.html
