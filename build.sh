@@ -6,7 +6,7 @@ cp static/* dest
 
 cat _index_header.html > dest/index.html
 
-function generate_page() {
+function generate_page {
 	filename=$(basename $1)
 	cat _header.html > dest/$filename.html
 	sed 's/^# \(.*\)/<h2>\1<\/h2>/' $1/opis.md >> dest/$filename.html
@@ -14,7 +14,7 @@ function generate_page() {
 
 }
 
-function generate_index() {
+function generate_index {
 	echo "<div class=\"container\">"
 	for item in `find $1 -name opis.md`; do
 		category=$(basename $(dirname $(dirname $item)))
