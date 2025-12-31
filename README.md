@@ -1,3 +1,5 @@
+❗ To repozytorium jest nieaktualne, nowa harcdzielnia: https://github.com/19pdh/harcdzielnia-gapps
+
 # harcdzielnia
 
 harcdzielnia to strona z listą harcerskich ubrań, które dostałem bo były już za
